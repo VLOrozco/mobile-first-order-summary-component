@@ -18,21 +18,54 @@
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
 
   font-family: 'Red Hat Display', sans-serif;
   font-size: 15px;
+  background-color: #E0E8FF;
+
+  position: relative;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ================================================================= */
 
-/* 1. LAYOUT */
-
-
-/* ================================================================= */
-
 /* 2. LAYOUT */
+.bg-img {
+  position: absolute;
+  z-index: -1;
+}
 
+.card {
+  height: 567px;
+  width: 327px;
+  background: #FFFFFF;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  position: relative;
+  margin-top: 71px;
+}
+.hero-img img {
+  position: absolute;
+  background-color: #382AE1;
+  height: 160px;
+  width: 327px;
+  border-radius: 20px 20px 0px 0px;
+}
+.card-content {
+  position: absolute;
+  top: 192px;
 
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* ================================================================= */
 
@@ -46,5 +79,3 @@ body {
 /* ================================================================= */
 
 /* 4. MEDIA QUERY */
-
-
