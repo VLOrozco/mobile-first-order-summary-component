@@ -40,8 +40,8 @@ Users should be able to:
 ---
 ## Links
 
-- Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-responsive-profile-card-component.git)
-- Live Site URL: [profile-card-component](https://vlorozco.github.io/Mobile-first-responsive-profile-card-component/)
+- Solution URL: [Github Code](https://github.com/VLOrozco/mobile-first-order-summary-component.git)
+- Live Site URL: [order-summary-component](https://vlorozco.github.io/mobile-first-order-summary-component/)
 
 ---
 ## Built with
