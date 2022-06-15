@@ -184,14 +184,12 @@ body {
 
 /* 4. MEDIA QUERY */
 /* SET FOR DESKTOP VIEW @ width:1440PX */
-@media screen and (min-width: 375px){
-  .bg-img {
-    top: -97px;
-  }
+@media screen and (min-width: 520px){
   .card {
     height: 697px;
     width: 450px;
     margin-top: 104px;
+    margin-bottom: 101px;
   }
   .hero-img img {
     height: 220px;
@@ -213,5 +211,46 @@ body {
     line-height: 26px;
     font-weight: 500;
     margin-top: 0;
+  }
+
+  .plan-component {
+    height: 98px;
+    width: 354px;
+    margin-top: -5px;
+  }
+  .plan-purchase {
+    height: 48px;
+    width: 92px;
+  }
+    .plan-title {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    .plan-price {
+      font-size: 16px;
+      line-height: 21px;
+      margin-top: 7px;
+    }
+    .change-link {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 19px;
+      margin-left: 44px;
+    }
+  .btn-payment {
+    height: 50px;
+    width: 354px;
+    letter-spacing: 0px;
+    font-weight: 800;
+    margin-top: 32px;
+  }
+  .cancel-link {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    margin-top: 9px;
+  }
+  .attribution {
+    padding: 20px;
   }
 }
