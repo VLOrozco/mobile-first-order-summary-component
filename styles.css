@@ -185,6 +185,9 @@ body {
 /* 4. MEDIA QUERY */
 /* SET FOR DESKTOP VIEW @ width:1440PX */
 @media screen and (min-width: 520px){
+  body {
+    overflow-x: hidden;
+  }
   .card {
     height: 697px;
     width: 450px;
