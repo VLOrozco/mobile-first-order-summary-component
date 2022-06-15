@@ -21,13 +21,14 @@ body {
   width: 100%;
 
   font-family: 'Red Hat Display', sans-serif;
+  font-style: normal;
   font-size: 15px;
   background-color: #E0E8FF;
 
   position: relative;
 }
 
-.flexbox {
+.flexbox, .card-content, .plan-component {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,22 +60,126 @@ body {
 }
 .card-content {
   position: absolute;
-  top: 192px;
+  top: 176px;
 
   /* flexbox */
-  display: flex;
   flex-direction: column;
-  align-items: center;
+
+  margin-left: 25px;
+  /* background-color: purple; */
+}
+/* .title {
+  
+} */
+.description {
+  height: 75px;
+  width: 263px;
+  margin-top: 1.5px;
+  margin-bottom: 24px;
 }
 
+.plan-component {
+  /* flexbox */
+  height: 81px;
+  width: 279px;
+  background: #F7F9FF;
+  border-radius: 11px;
+}
+  .music-icon {
+    height: 48px;
+    width: 48px;
+  }
+  .plan-purchase {
+    height: 40px;
+    width: 81px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+    .plan-title {
+      margin: 0;
+    }
+    .plan-price {
+      margin-top: 3px;
+    }
+
+  .btn-payment {
+    height: 50px;
+    width: 279px;
+    border-radius: 11px;
+    border: none;
+    margin: 24px 0;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  }
+
+.attribution {
+  position: absolute;
+  width: 100%;
+  margin-top: 1.5rem;
+}
 /* ================================================================= */
 
 /* 3. TYPOGRAPHY */
+.title {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+  .description {
+    color: #717FA6;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
 
+.plan-title {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+  .plan-price {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #717FA6;
+  }
+  .change-link {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 
+.btn-payment {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); 
+.cancel-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717FA6;
+  margin-top: 0;
+}
+
+.attribution {
+  font-size: 11px; 
+  text-align: center;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
 /* ================================================================= */
 
