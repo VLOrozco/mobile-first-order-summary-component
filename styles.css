@@ -172,7 +172,21 @@ body {
   color: #717FA6;
   margin-top: 0;
 }
+/* BUTTONS :HOVER AND ACTIVE STATES */
+.change-link, .btn-payment, .cancel-link {
+  cursor: pointer;
+}
+  .change-link:hover, .change-link:focus {
+    color: #766CF1;
+  }
+  .btn-payment:hover, .btn-payment:focus {
+    background-color: #766CF1;
+  }
+  .cancel-link:hover, .cancel-link:focus {
+    color: #1F2E55;
+  }
 
+/* CREDIT */
 .attribution {
   font-size: 11px; 
   text-align: center;
