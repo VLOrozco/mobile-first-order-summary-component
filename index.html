@@ -12,25 +12,25 @@
 </head>
 <body>
 <picture class="bg-img">
-  <source media="(min-width:376px)" srcset="images/pattern-background-desktop.svg" alt="">
+  <source media="(min-width:376px)" srcset="images/pattern-background-desktop.svg">
   <img src="images/pattern-background-mobile.svg" alt="" style="width:auto;">
 </picture>
 <div class="bg-img"><img src="images/pattern-background-mobile.svg" alt=""></div>
 <div class="flexbox">
   <div class="card">
-    <div class="hero-img"><img src="images/illustration-hero.svg" alt="Girl with headphones on, dancing and listening to music"></div>
+    <div class="hero-img" role="banner"><img src="images/illustration-hero.svg" alt="Girl with headphones on, dancing and listening to music"></div>
     <div class="card-content">
-      <h1 class="title" role="banner">Order Summary</h1>
+      <h1 class="title">Order Summary</h1>
       <p class="description" role="complementary">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-      <span class="plan-component" role="main">
-        <span class="music-icon"><img src="images/icon-music.svg" alt="eighth notes music icon"></span>
+      <div class="plan-component" role="main">
+        <div class="music-icon"><img src="images/icon-music.svg" alt="eighth notes music icon"></div>
         <span class="plan-purchase">
           <h2 class="plan-title">Annual Plan</h2>
           <p class="plan-price">$59.99/year</p>
         </span>
-        <a href="#" class="change-link" role="search">Change</a>
-      </span>
-      <button class="btn-payment" role="form">Proceed to Payment</button>
+        <a href="#change" id="change" class="change-link" role="search">Change</a>
+      </div>
+      <button class="btn-payment">Proceed to Payment</button>
       <span class="cancel-link" role="complementary">Cancel Order</span>
     </div>
   </div>
