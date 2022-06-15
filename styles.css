@@ -4,6 +4,7 @@
 /* ================================================================= */
 
 /* TABLE OF CONTENTS */
+/* SET FOR MOBILE FIRST VIEW @ width:375PX */
 
 /* 
 1. GLOBAL
@@ -68,9 +69,7 @@ body {
   margin-left: 25px;
   /* background-color: purple; */
 }
-/* .title {
-  
-} */
+
 .description {
   height: 75px;
   width: 263px;
@@ -184,3 +183,35 @@ body {
 /* ================================================================= */
 
 /* 4. MEDIA QUERY */
+/* SET FOR DESKTOP VIEW @ width:1440PX */
+@media screen and (min-width: 375px){
+  .bg-img {
+    top: -97px;
+  }
+  .card {
+    height: 697px;
+    width: 450px;
+    margin-top: 104px;
+  }
+  .hero-img img {
+    height: 220px;
+    width: 450px;
+  }
+  .card-content {
+    width: 354px;
+    top: 247px;
+    margin-left: 48px;
+  }
+  .title {
+    font-size: 28px;
+    line-height: 37px;
+  }
+  .description {
+    height: 78px;
+    width: 354px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+}
