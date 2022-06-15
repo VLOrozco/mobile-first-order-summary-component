@@ -10,6 +10,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
+  - [- Responsive to mobile view @375px and desktop view @ 1440px](#--responsive-to-mobile-view-375px-and-desktop-view--1440px)
   - [Screenshot](#screenshot)
     - [Mobile View](#mobile-view)
     - [Desktop View](#desktop-view)
@@ -26,7 +27,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 Users should be able to:
 
 - See hover states for interactive elements
-
+- Responsive to mobile view @375px and desktop view @ 1440px
+---
 ## Screenshot
 
 ### Mobile View
